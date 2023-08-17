@@ -64,6 +64,32 @@ body{
     z-index: 1;
 }
 
+
+::-webkit-scrollbar{
+    display: none;
+
+}
+
+#header .address{
+    font-size: 20px;
+}
+
+.your-address{
+    border: 1px solid indianred;
+    color: indianred;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.add-box i{
+    font-size: 20px;
+}
+
 #cart{
     background: lavender;
 }
