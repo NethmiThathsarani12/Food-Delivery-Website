@@ -90,6 +90,39 @@ body{
     font-size: 20px;
 }
 
+.util i, .user i{
+    font-size: 18px;
+    margin: 0 16px;
+    border: 1px solid crimson;
+    padding: 8px 16px;
+    color: crimson;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.util i:active {
+    color: white;
+    background: crimson;
+}
+
+.food-items{
+
+
+}
+
+#biryani,#chicken,#paneer,#vegetable,#chinese,#south-indian{
+    margin-top: 40px;
+}
+
+#paneer #item-card,#vegetable #item-card{
+    background: rgb(128, 253, 18);
+}
+
+#chinese #item-card, #south-indian #item-card{
+    background: rgb(221, 243, 243);
+}
+
+
 #cart{
     background: lavender;
 }
