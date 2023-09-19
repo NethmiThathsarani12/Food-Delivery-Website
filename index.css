@@ -151,7 +151,14 @@ body{
     color: goldenrod;
     background: black;
     font-size: 14px;
-    border-radius: 14;
+    border-radius: 14px;
+}
+
+.fa-heart-o{
+    padding: 6px;
+    background: white;
+    cursor: pointer;
+    border-radius: 50%;
 }
 
 #item-card img{
