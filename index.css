@@ -195,5 +195,16 @@ body{
 }
 
 #cart{
-    background: lavender;
+    background: whitesmoke;
+    padding-right: 30px;
+    overflow-y: scroll;
+}
+
+.taste-header{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background: whitesmoke;
+
 }
